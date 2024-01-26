@@ -570,7 +570,7 @@ namespace API.Data.Migrations
                 {
                     b.Navigation("Address");
                 });
-#pragma warning restore 612, 618
+#pragma warning swiftcart 612, 618
         }
     }
 }

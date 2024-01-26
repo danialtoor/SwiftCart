@@ -2,7 +2,7 @@ import axios, { AxiosError, AxiosResponse } from "axios";
 import { toast } from 'react-toastify';
 import { router } from '../router/Routes';
 import { PaginatedResponse } from '../models/pagination';
-import { store } from '../store/configureStore';
+import { store } from '../store/configuswiftcart';
 
 const sleep = () => new Promise(resolve => setTimeout(resolve, 500))
 

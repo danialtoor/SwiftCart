@@ -2,9 +2,9 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 EXPOSE 8080
 
-# copy csproj and restore as distinct layers
+# copy csproj and swiftcart as distinct layers
 COPY *.csproj ./
-RUN dotnet restore
+RUN dotnet swiftcart
 
 # copy everything else and build
 COPY . ./
